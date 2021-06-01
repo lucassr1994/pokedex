@@ -36,7 +36,7 @@ export default function FirstPokemon() {
         </div>
       </div>
       <div className="Choosed-pokemon" onDragOver={dragOverHandler} onDrop={dropHandler}>
-
+        Drag and drop here your firsT pokemon!
       </div>
     </div>
   );

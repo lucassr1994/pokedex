@@ -4,11 +4,11 @@ import Routes from '../../routes';
 
 const App = () => {
   return (
-    <Router basename="/">
-      <div className='app'>
-        <Routes />
-      </div>
-    </Router>
+      <Router basename="/">
+          <div className='app'>
+            <Routes />
+          </div>
+      </Router>
   );
 }
 
