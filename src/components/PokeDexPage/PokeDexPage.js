@@ -1,5 +1,6 @@
 import React from 'react'
-import PokeDexCard from './PokeDexCard'
+import PokeDexCard from '../PokeDexCard/PokeDexCard'
+import './PokeDexPage.css'
 
 export default function PokeDexPage(props) {
   const pokemonId = []
@@ -7,7 +8,7 @@ export default function PokeDexPage(props) {
     pokemonId.push(i)
   }
   return (
-    <div>
+    <div className='Pokedex-page'>
       {pokemonId.map(pokemonId => <PokeDexCard number={pokemonId} />)}
     </div>
   );

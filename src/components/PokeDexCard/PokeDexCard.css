@@ -1,0 +1,13 @@
+.Pokedex-card{
+    display:flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+    width:200px;
+    height:350px;
+    box-shadow: 2.5px 5px #888888;
+    border-radius: 15px;
+    border-color: black;
+    border:solid;
+    border-width: 0.1px;
+}

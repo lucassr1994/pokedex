@@ -1,7 +1,7 @@
 import React from 'react'
-import PageList from '../../components/PageList'
+import PageList from '../../components/PageList/PageList'
 import useQuery from '../../hooks/useQuery'
-import PokeDexPage from '../../components/PokeDexPage'
+import PokeDexPage from '../../components/PokeDexPage/PokeDexPage'
 
 const TOTAL_POKEMONS = 151
 const PAGE_SIZE = 20

@@ -1,0 +1,21 @@
+.Pokemon-options{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    border-color: black;
+    border:solid;
+    border-width: 0.1px;
+    margin: 10px;
+}
+.Choosed-pokemon {
+    width: 50%;
+    border-color: black;
+    border:solid;
+    border-width: 0.1px;
+    margin: 10px;
+}
+
+.FirstPokemon-page{
+    display: flex;
+    flex-direction: row;
+}

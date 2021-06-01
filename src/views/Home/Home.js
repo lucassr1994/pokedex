@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 const Home = () => {
@@ -7,6 +8,8 @@ const Home = () => {
         <p>
           Griaule PokeTest
         </p>
+          <Link to='/pokedex'>Check the Pokedex</Link>
+          <Link to='/choose-first-pokemon'>Choose your first Pokemon</Link>
       </header>
     </div>
   );
